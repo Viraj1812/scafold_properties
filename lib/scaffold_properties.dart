@@ -4,7 +4,7 @@ class ScaffoldProperties extends StatefulWidget {
   const ScaffoldProperties({super.key});
 
   @override
-  _ScaffoldPropertiesState createState() => _ScaffoldPropertiesState();
+  State<ScaffoldProperties> createState() => _ScaffoldPropertiesState();
 }
 
 class _ScaffoldPropertiesState extends State<ScaffoldProperties> {
